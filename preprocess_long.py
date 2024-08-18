@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Participants: 1~11, 16
-participants = list(range(1, 12)) + [16]
+participants = list(range(1, 13)) + [15, 16]
 
 # Map seq to topic (0 or 1)
 seq_df = pd.read_csv('questionnaire\\seq.csv', index_col=0)
