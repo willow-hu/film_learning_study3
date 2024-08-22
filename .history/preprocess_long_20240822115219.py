@@ -3,13 +3,13 @@ import numpy as np
 import os
 
 # Participants: 1~11, 16
-participants = list(range(1, 16)) 
+participants = list(range(1, 16]
 
 # Map seq to topic (0 or 1)
-seq_df = pd.read_csv('questionnaire/seq.csv', index_col=0)
+seq_df = pd.read_csv('questionnaire\\seq.csv', index_col=0)
 
 # Load answers
-ans = pd.read_csv('questionnaire/long_term/answers.csv')
+ans = pd.read_csv('questionnaire\\long_term\\answers.csv')
 
 # Participant to seq
 def par2seq(par_id):
@@ -31,7 +31,7 @@ def get_answer_seq(row):
 res_all = pd.DataFrame(columns=['strategy', 'topic', 'corpus', 'method', 'participant', 'score'])
 
 # Load the responses
-response_folder = 'questionnaire/long_term/responses'
+response_folder = 'questionnaire\\long_term\\responses'
 
 for file in os.listdir(response_folder):
     topic = file.split('.')[0][:-2]

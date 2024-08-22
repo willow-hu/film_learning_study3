@@ -31,7 +31,7 @@ def get_answer_seq(row):
 res_all = pd.DataFrame(columns=['strategy', 'topic', 'corpus', 'method', 'participant', 'score'])
 
 # Load the responses
-response_folder = 'questionnaire/long_term/responses'
+response_folder = 'questionnaire/long_term\\responses'
 
 for file in os.listdir(response_folder):
     topic = file.split('.')[0][:-2]
