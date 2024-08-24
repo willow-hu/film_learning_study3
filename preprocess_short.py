@@ -28,7 +28,7 @@ def get_answer_seq(row):
     return [row[i][1] for i in range(2, 9)]
 
 
-res_all = pd.DataFrame(columns=['strategy', 'topic', 'method', 'participant', 'score', 
+res_all = pd.DataFrame(columns=['strategy', 'topic', 'corpus', 'method', 'participant', 'score', 
                                 'competence', 'mental_demand', 'frustration', 'pleasure', 'temporal_demand', 
                                 'effort', 'immersion', 'physical_effort', 'difficulty', 'familarity', 'understanding'])
 
@@ -41,6 +41,7 @@ response_folder = 'questionnaire/short_term/responses'
 for file in os.listdir(response_folder):
     topic = file.split('.')[0]
     strategy = topic.split('_')[0]
+    corpus = topic.split('_')[1]
     correct_ans = ans[topic].tolist()
 
     response = pd.read_csv(os.path.join(response_folder, file))
@@ -62,7 +63,7 @@ for file in os.listdir(response_folder):
         score = sum([1 for i, j in zip(answers, correct_ans) if i == j])
 
         # Create a row of the summary
-        personal_response = [strategy, topic, method, par_id, score] + row[9:].tolist()
+        personal_response = [strategy, topic, corpus, method, par_id, score] + row[9:].tolist()
 
         # Add this row to the dataframe
         res_all = pd.concat([res_all, pd.DataFrame([personal_response], columns=res_all.columns)])
