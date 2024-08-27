@@ -1,0 +1,420 @@
+{
+    "competence": {
+        "AN": {
+            "mean_method0": 4.0625,
+            "mean_method1": 3.9375,
+            "F-value": 0.03916449086161879,
+            "p-value": 0.8457801257277192
+        },
+        "EE": {
+            "mean_method0": 3.9375,
+            "mean_method1": 3.875,
+            "F-value": 0.012185215272136476,
+            "p-value": 0.913566120736525
+        },
+        "IL": {
+            "mean_method0": 4.25,
+            "mean_method1": 4.5,
+            "F-value": 0.189873417721519,
+            "p-value": 0.6692274972949905
+        },
+        "LC": {
+            "mean_method0": 3.875,
+            "mean_method1": 4.125,
+            "F-value": 0.42857142857142855,
+            "p-value": 0.5226031535880371
+        },
+        "RQ": {
+            "mean_method0": 3.75,
+            "mean_method1": 4.625,
+            "F-value": 4.1999999999999975,
+            "p-value": 0.0583341726778741
+        },
+        "TP": {
+            "mean_method0": 5.0625,
+            "mean_method1": 4.875,
+            "F-value": 0.16728624535315986,
+            "p-value": 0.6883150997810397
+        }
+    },
+    "mental_demand": {
+        "AN": {
+            "mean_method0": 4.1875,
+            "mean_method1": 4.0,
+            "F-value": 0.2315608919382504,
+            "p-value": 0.6373130771059656
+        },
+        "EE": {
+            "mean_method0": 4.75,
+            "mean_method1": 4.6875,
+            "F-value": 0.019157088122605363,
+            "p-value": 0.8917581014499064
+        },
+        "IL": {
+            "mean_method0": 4.5,
+            "mean_method1": 3.75,
+            "F-value": 2.2131147540983584,
+            "p-value": 0.15756095110752513
+        },
+        "LC": {
+            "mean_method0": 4.0625,
+            "mean_method1": 4.0625,
+            "F-value": 0.0,
+            "p-value": 1.0
+        },
+        "RQ": {
+            "mean_method0": 4.4375,
+            "mean_method1": 4.0625,
+            "F-value": 0.7714285714285715,
+            "p-value": 0.3936272561828801
+        },
+        "TP": {
+            "mean_method0": 3.5,
+            "mean_method1": 4.1875,
+            "F-value": 3.0300500834724544,
+            "p-value": 0.10220222989735074
+        }
+    },
+    "frustration": {
+        "AN": {
+            "mean_method0": 3.3125,
+            "mean_method1": 3.625,
+            "F-value": 0.49407114624505927,
+            "p-value": 0.4928826097163206
+        },
+        "EE": {
+            "mean_method0": 3.4375,
+            "mean_method1": 3.625,
+            "F-value": 0.1443850267379679,
+            "p-value": 0.709286247621847
+        },
+        "IL": {
+            "mean_method0": 3.125,
+            "mean_method1": 2.9375,
+            "F-value": 0.09540636042402827,
+            "p-value": 0.7616620228177571
+        },
+        "LC": {
+            "mean_method0": 3.5,
+            "mean_method1": 3.375,
+            "F-value": 0.18987341772152172,
+            "p-value": 0.6692274972949879
+        },
+        "RQ": {
+            "mean_method0": 3.25,
+            "mean_method1": 2.75,
+            "F-value": 0.8823529411764706,
+            "p-value": 0.36243906471558435
+        },
+        "TP": {
+            "mean_method0": 2.875,
+            "mean_method1": 2.375,
+            "F-value": 4.9999999999999964,
+            "p-value": 0.040968955955836245
+        }
+    },
+    "pleasure": {
+        "AN": {
+            "mean_method0": 3.25,
+            "mean_method1": 3.75,
+            "F-value": 0.9375,
+            "p-value": 0.3482753557352242
+        },
+        "EE": {
+            "mean_method0": 3.3125,
+            "mean_method1": 3.125,
+            "F-value": 0.3191489361702128,
+            "p-value": 0.5804709682596473
+        },
+        "IL": {
+            "mean_method0": 3.5,
+            "mean_method1": 4.0625,
+            "F-value": 0.6664838178826111,
+            "p-value": 0.4270557037773033
+        },
+        "LC": {
+            "mean_method0": 3.5625,
+            "mean_method1": 3.5625,
+            "F-value": 0.0,
+            "p-value": 1.0
+        },
+        "RQ": {
+            "mean_method0": 3.625,
+            "mean_method1": 4.0625,
+            "F-value": 0.8516801853997703,
+            "p-value": 0.3706845436552473
+        },
+        "TP": {
+            "mean_method0": 3.625,
+            "mean_method1": 4.25,
+            "F-value": 3.9473684210526345,
+            "p-value": 0.06552575052822943
+        }
+    },
+    "temporal_demand": {
+        "AN": {
+            "mean_method0": 2.9375,
+            "mean_method1": 3.125,
+            "F-value": 0.4128440366972477,
+            "p-value": 0.5302285967184984
+        },
+        "EE": {
+            "mean_method0": 3.375,
+            "mean_method1": 3.625,
+            "F-value": 0.4054054054054054,
+            "p-value": 0.5339078077616481
+        },
+        "IL": {
+            "mean_method0": 3.5625,
+            "mean_method1": 2.75,
+            "F-value": 2.0199203187250996,
+            "p-value": 0.1757034038263018
+        },
+        "LC": {
+            "mean_method0": 2.6875,
+            "mean_method1": 2.625,
+            "F-value": 0.03239740820734157,
+            "p-value": 0.8595672772349834
+        },
+        "RQ": {
+            "mean_method0": 3.25,
+            "mean_method1": 3.0,
+            "F-value": 1.000000000000002,
+            "p-value": 0.33317013591547523
+        },
+        "TP": {
+            "mean_method0": 2.875,
+            "mean_method1": 2.6875,
+            "F-value": 0.5133079847908745,
+            "p-value": 0.4847166429489901
+        }
+    },
+    "effort": {
+        "AN": {
+            "mean_method0": 3.4375,
+            "mean_method1": 4.0,
+            "F-value": 1.728307254623044,
+            "p-value": 0.20837397483866396
+        },
+        "EE": {
+            "mean_method0": 4.4375,
+            "mean_method1": 4.5625,
+            "F-value": 0.0819672131147541,
+            "p-value": 0.7785652977449748
+        },
+        "IL": {
+            "mean_method0": 4.1875,
+            "mean_method1": 3.6875,
+            "F-value": 1.0714285714285714,
+            "p-value": 0.31702329195289664
+        },
+        "LC": {
+            "mean_method0": 3.8125,
+            "mean_method1": 4.125,
+            "F-value": 0.6260434056761269,
+            "p-value": 0.4411426901340306
+        },
+        "RQ": {
+            "mean_method0": 4.375,
+            "mean_method1": 3.5625,
+            "F-value": 8.59322033898305,
+            "p-value": 0.010315540065591967
+        },
+        "TP": {
+            "mean_method0": 4.25,
+            "mean_method1": 3.6875,
+            "F-value": 2.7181208053691317,
+            "p-value": 0.11999543064006311
+        }
+    },
+    "lost_track": {
+        "AN": {
+            "mean_method0": 3.6875,
+            "mean_method1": 4.5,
+            "F-value": 5.571428571428569,
+            "p-value": 0.03222056034830152
+        },
+        "EE": {
+            "mean_method0": 4.0,
+            "mean_method1": 3.75,
+            "F-value": 0.28301886792452624,
+            "p-value": 0.6025204654325105
+        },
+        "IL": {
+            "mean_method0": 4.25,
+            "mean_method1": 4.0,
+            "F-value": 0.27272727272727276,
+            "p-value": 0.609134802733577
+        },
+        "LC": {
+            "mean_method0": 3.625,
+            "mean_method1": 3.3125,
+            "F-value": 0.8542141230068337,
+            "p-value": 0.3699929321462049
+        },
+        "RQ": {
+            "mean_method0": 4.25,
+            "mean_method1": 3.4375,
+            "F-value": 2.9104477611940296,
+            "p-value": 0.10862076908676997
+        },
+        "TP": {
+            "mean_method0": 4.25,
+            "mean_method1": 3.3125,
+            "F-value": 7.830626450116009,
+            "p-value": 0.013505270052831538
+        }
+    },
+    "physical_effort": {
+        "AN": {
+            "mean_method0": 2.9375,
+            "mean_method1": 2.9375,
+            "F-value": 0.0,
+            "p-value": 1.0
+        },
+        "EE": {
+            "mean_method0": 3.3125,
+            "mean_method1": 3.4375,
+            "F-value": 0.0672645739910333,
+            "p-value": 0.798887689289624
+        },
+        "IL": {
+            "mean_method0": 3.125,
+            "mean_method1": 2.875,
+            "F-value": 0.5172413793103449,
+            "p-value": 0.48307574813814147
+        },
+        "LC": {
+            "mean_method0": 2.875,
+            "mean_method1": 2.875,
+            "F-value": 0.0,
+            "p-value": 1.0
+        },
+        "RQ": {
+            "mean_method0": 3.3125,
+            "mean_method1": 2.9375,
+            "F-value": 1.9014084507042253,
+            "p-value": 0.18813706218300888
+        },
+        "TP": {
+            "mean_method0": 2.9375,
+            "mean_method1": 2.6875,
+            "F-value": 0.9999999999999962,
+            "p-value": 0.33317013591547684
+        }
+    },
+    "difficulty": {
+        "AN": {
+            "mean_method0": 3.625,
+            "mean_method1": 4.0625,
+            "F-value": 0.45966228893058164,
+            "p-value": 0.5081061268508558
+        },
+        "EE": {
+            "mean_method0": 4.125,
+            "mean_method1": 3.5625,
+            "F-value": 1.2669447340980207,
+            "p-value": 0.2780284803370124
+        },
+        "IL": {
+            "mean_method0": 4.1875,
+            "mean_method1": 3.25,
+            "F-value": 2.6061776061776065,
+            "p-value": 0.1272825398534806
+        },
+        "LC": {
+            "mean_method0": 4.125,
+            "mean_method1": 3.75,
+            "F-value": 1.134453781512605,
+            "p-value": 0.30367270448884165
+        },
+        "RQ": {
+            "mean_method0": 3.875,
+            "mean_method1": 3.1875,
+            "F-value": 2.2053462940461723,
+            "p-value": 0.15824412410963407
+        },
+        "TP": {
+            "mean_method0": 3.4375,
+            "mean_method1": 2.875,
+            "F-value": 1.7283072546230467,
+            "p-value": 0.20837397483866343
+        }
+    },
+    "familarity": {
+        "AN": {
+            "mean_method0": 1.6875,
+            "mean_method1": 2.1875,
+            "F-value": 0.5882352941176471,
+            "p-value": 0.45500525844792716
+        },
+        "EE": {
+            "mean_method0": 1.75,
+            "mean_method1": 2.5625,
+            "F-value": 4.348198970840484,
+            "p-value": 0.054548271467684414
+        },
+        "IL": {
+            "mean_method0": 1.9375,
+            "mean_method1": 1.25,
+            "F-value": 2.2053462940461723,
+            "p-value": 0.15824412410963407
+        },
+        "LC": {
+            "mean_method0": 2.125,
+            "mean_method1": 2.5625,
+            "F-value": 1.0,
+            "p-value": 0.33317013591547606
+        },
+        "RQ": {
+            "mean_method0": 1.9375,
+            "mean_method1": 1.8125,
+            "F-value": 0.06276150627615062,
+            "p-value": 0.8055823354747514
+        },
+        "TP": {
+            "mean_method0": 2.4375,
+            "mean_method1": 1.875,
+            "F-value": 1.1516587677725119,
+            "p-value": 0.3001639858347357
+        }
+    },
+    "understanding": {
+        "AN": {
+            "mean_method0": 4.5,
+            "mean_method1": 3.8125,
+            "F-value": 1.18860510805501,
+            "p-value": 0.2928157428378862
+        },
+        "EE": {
+            "mean_method0": 4.375,
+            "mean_method1": 4.5625,
+            "F-value": 0.13513513513513342,
+            "p-value": 0.7183012567931362
+        },
+        "IL": {
+            "mean_method0": 3.9375,
+            "mean_method1": 4.6875,
+            "F-value": 2.4545454545454546,
+            "p-value": 0.13803484396804885
+        },
+        "LC": {
+            "mean_method0": 3.75,
+            "mean_method1": 4.4375,
+            "F-value": 3.0300500834724544,
+            "p-value": 0.10220222989735074
+        },
+        "RQ": {
+            "mean_method0": 4.5625,
+            "mean_method1": 4.75,
+            "F-value": 0.189873417721519,
+            "p-value": 0.6692274972949905
+        },
+        "TP": {
+            "mean_method0": 4.6875,
+            "mean_method1": 5.1875,
+            "F-value": 1.875,
+            "p-value": 0.191057627345904
+        }
+    }
+}

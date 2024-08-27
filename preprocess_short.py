@@ -30,10 +30,10 @@ def get_answer_seq(row):
 
 res_all = pd.DataFrame(columns=['strategy', 'topic', 'corpus', 'method', 'participant', 'score', 
                                 'competence', 'mental_demand', 'frustration', 'pleasure', 'temporal_demand', 
-                                'effort', 'immersion', 'physical_effort', 'difficulty', 'familarity', 'understanding'])
+                                'effort', 'lost_track', 'physical_effort', 'difficulty', 'familiarity', 'understanding'])
 
 # cognitive_load = mental_demand + frustration + temporal_demand + physical_effort + effort
-# enjoyment = competence + pleasure + understanding - immersion
+# enjoyment = competence + pleasure + understanding - lost_track
 
 # Load the responses
 response_folder = 'questionnaire/short_term/responses'
@@ -70,6 +70,6 @@ for file in os.listdir(response_folder):
 
 # Compute cognitive_load and enjoyment for each row in res_all
 res_all['cognitive_load'] = res_all['mental_demand'] + res_all['frustration'] + res_all['temporal_demand'] + res_all['physical_effort'] + res_all['effort']
-res_all['enjoyment'] = res_all['competence'] + res_all['pleasure'] + res_all['understanding'] - res_all['immersion']
+res_all['enjoyment'] = res_all['competence'] + res_all['pleasure'] + res_all['understanding'] - res_all['lost_track']
 
 res_all.to_csv('questionnaire/short_term/response_summary_short.csv', index=False)
